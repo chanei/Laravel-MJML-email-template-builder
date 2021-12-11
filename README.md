@@ -16,6 +16,8 @@
 
 - <https://mjml.io/templates>
 
+- <https://github.com/stidges/laravel-mix-mjml>
+
 ### How to build the email template
 
 - Create .mjml file inside ```resources/mail``` folder
