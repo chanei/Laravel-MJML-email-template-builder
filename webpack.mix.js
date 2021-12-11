@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+require('laravel-mix-mjml');
 
 /*
  |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+mix.mjml();
