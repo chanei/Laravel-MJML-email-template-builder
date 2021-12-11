@@ -37,7 +37,9 @@
     </mj-section>
     <mj-section background-color="#ffffff" background-repeat="repeat" padding-top="0px" padding="20px 0" text-align="center"  >
       <mj-column>
-        <mj-button align="center" background-color="#354552" border-radius="3px" color="#ffffff" font-size="14px" font-weight="normal" inner-padding="10px 25px" padding="10px 25px" text-decoration="none" text-transform="none" vertical-align="middle">Discover all desserts</mj-button>
+        <mj-button href="{{ $button_url }}" target="_blank" align="center" background-color="#354552" border-radius="3px" color="#ffffff" font-size="14px" font-weight="normal" inner-padding="10px 25px" padding="10px 25px" text-decoration="none" text-transform="none" vertical-align="middle">
+            Discover all desserts
+        </mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" background-repeat="repeat" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center"  >

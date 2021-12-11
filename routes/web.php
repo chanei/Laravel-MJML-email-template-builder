@@ -18,6 +18,7 @@ Route::get('/', function () {
         Define the variable moustache from the .mjml file. Pass the variable content to the generate blade file
         from either the route, controller or any other means to display.
     ';
+    $button_url = "https://google.com";
 
-    return view('mail.index', compact('content_var'));
+    return view('mail.index', compact('content_var', 'button_url'));
 });

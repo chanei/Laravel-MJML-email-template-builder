@@ -267,7 +267,7 @@
                           <tbody>
                             <tr>
                               <td align="center" bgcolor="#354552" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#354552;" valign="middle">
-                                <p style="display:inline-block;background:#354552;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;"> Discover all desserts </p>
+                                <a href="{{ $button_url }}" style="display:inline-block;background:#354552;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Discover all desserts </a>
                               </td>
                             </tr>
                           </tbody>
