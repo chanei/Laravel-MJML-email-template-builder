@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('preview', function () {
-    return view('mail.index');
+    $content_var = '
+        Define the variable moustache from the .mjml file. Pass the variable content to the generate blade file
+        from either the route, controller or any other means to display.
+    ';
+
+    return view('mail.index', compact('content_var'));
 });

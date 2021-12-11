@@ -159,7 +159,7 @@
                           <tbody>
                             <tr>
                               <td style="width:600px;">
-                                <img height="auto" src="http://5vph.mj.am/img/5vph/b/1g8pi/068ys.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" />
+                                <img height="auto" src="/images/068ys.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" />
                               </td>
                             </tr>
                           </tbody>
@@ -235,7 +235,9 @@
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:40px;word-break:break-word;">
                         <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;color:#000000;">
                           <p style="margin: 10px 0;   font-size:16px;  "><b>Cake Title</b></p>
-                          <p style="line-height: 16px; margin: 10px 0;font-size:14px;    ; color:#354552">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                          <p style="line-height: 16px; margin: 10px 0;font-size:14px;    ; color:#354552">
+                            {{ $content_var }}
+                          </p>
                           <p style="line-height: 16px; margin: 10px 0; color:#354552; font-size:14px;  "><u>Choose me</u> &gt;</p>
                         </div>
                       </td>

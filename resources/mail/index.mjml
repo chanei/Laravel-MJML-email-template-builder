@@ -10,7 +10,8 @@
     </mj-section>
     <mj-section background-repeat="repeat" padding-bottom="0px" padding-top="0px" padding="20px 0" text-align="center">
       <mj-column>
-        <mj-image align="center" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="10px 25px" src="http://5vph.mj.am/img/5vph/b/1g8pi/068ys.png" target="_blank" width="600px"></mj-image>
+        <mj-image align="center" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px"
+        padding="10px 25px" src="/images/068ys.png" target="_blank" width="600px"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding-bottom="0px" padding-top="30px" padding="20px 0" text-align="center"  >
@@ -28,9 +29,7 @@
         <mj-text align="left" font-size="13px" line-height="22px" padding-bottom="0px" padding-left="40px" padding-right="40px" padding-top="0px" padding="10px 25px">
           <p style="margin: 10px 0;   font-size:16px;  "><b>Cake Title</b></p>
           <p style="line-height: 16px; margin: 10px 0;font-size:14px;    ; color:#354552">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
+            {{ $content_var }}
           </p>
           <p style="line-height: 16px; margin: 10px 0; color:#354552; font-size:14px;  "><u>Choose me</u> &gt;</p>
         </mj-text>
