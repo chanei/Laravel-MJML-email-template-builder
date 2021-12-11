@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('preview', function () {
     $content_var = '
         Define the variable moustache from the .mjml file. Pass the variable content to the generate blade file
         from either the route, controller or any other means to display.
